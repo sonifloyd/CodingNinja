@@ -51,12 +51,12 @@ public class Start {
 		// TODO Auto-generated method stub
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("enter digit");
+		
 		int sal=sc.nextInt();
 		
 		String grade=sc.next();
 		char ch=grade.charAt(0);
-	System.out.println(sal+ch);
+	
 	double hra=(0.2*sal);
 	System.out.println(hra);
 	double da =(0.5*sal);
